@@ -5,15 +5,16 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ArrowUpRight, Github } from 'lucide-react'
 import Image from 'next/image'
-import React, {useRef } from 'react'
+import React, {useRef, FC } from 'react'
 
 interface ProjectPageProps {
   params: {
     id: string;
   };
 }
-const SingleProject = ({params}:ProjectPageProps) => {
-    const {id} = params
+
+const SingleProject: FC<ProjectPageProps> = ({ params }) => {
+  const { id } = params;
     const project= allProjects.find((projectId)=> projectId.id === id)
 
     const projectRef =useRef(null)
