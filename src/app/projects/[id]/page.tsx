@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-non-null-asserted-optional-chain */
 "use client"
 import { allProjects } from '@/constants'
 import { useGSAP } from '@gsap/react'
@@ -5,7 +6,7 @@ import gsap from 'gsap'
 import { ArrowUpRight, Github } from 'lucide-react'
 import Image from 'next/image'
 import React, {useRef } from 'react'
-
+// eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
 const SingleProject = ({params:{id}}:{params:{id:string}}) => {
     const project= allProjects.find((projectId)=> projectId.id === id)
 

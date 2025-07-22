@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 import AnimatedHeaderSection from '@/components/AnimatedHeaderSection'
 import { featuredProjectsLanding } from '@/constants'

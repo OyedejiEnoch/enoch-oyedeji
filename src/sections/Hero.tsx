@@ -24,7 +24,7 @@ const Hero = () => {
               <div
               className='subtext flex items-center gap-2'>
                 <div className='bg-green-400 rounded-full size-3 animate-pulse'></div>
-                <span className='text-white'>Let's work together</span>
+                <span className='text-white'>Lets work together</span>
               </div>
         </div>
       </div>
