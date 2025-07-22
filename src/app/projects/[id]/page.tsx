@@ -6,8 +6,14 @@ import gsap from 'gsap'
 import { ArrowUpRight, Github } from 'lucide-react'
 import Image from 'next/image'
 import React, {useRef } from 'react'
-// eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-const SingleProject = ({params:{id}}:{params:{id:string}}) => {
+
+interface ProjectPageProps {
+  params: {
+    id: string;
+  };
+}
+const SingleProject = ({params}:ProjectPageProps) => {
+    const {id} = params
     const project= allProjects.find((projectId)=> projectId.id === id)
 
     const projectRef =useRef(null)
