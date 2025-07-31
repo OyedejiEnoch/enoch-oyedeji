@@ -43,6 +43,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
+    link:"https://fundain-gules.vercel.app/",
+    github:'https://github.com/OyedejiEnoch/Fundain'
     },
   
     {
@@ -62,13 +64,16 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
+    link:"https://sphereal-ui.vercel.app/",
+    github:'https://github.com/OyedejiEnoch/Sphereal-UI'
     },
-    {
+        {
     id:'3',
-    title:"Peculiar Tressure School Dashboard",
-    image:"/peculiar/img1.png",
-    description:`I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning 
-    were invested to create a system capable of managing the school's core activities efficiently an admin system which would be used to control the major affairs of the school`,
+    title:"Layers Ui",
+    image:"/layers/img1.png",
+    description:`Layers is a SaaS landing page, Layers combines powerful features with an intuitive interface that keeps you in your creative flow.
+    It has Real-time Collaboration, Interactive Prototyping and Keyboard Quick Actions, Layers also seamlessly connect with your favorite tools, making it easy to plug into any workflow and collaborate across platforms.
+    Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.`,
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -76,8 +81,10 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
-    
+    link:"http://layers-ui.vercel.app",
+    github:'https://github.com/OyedejiEnoch/Layers-Ui'
   },
+
     {
       id:'4',
       title:"TedxRUN",
@@ -91,6 +98,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
+    link:"https://tedx-redeemers-uinversity.vercel.app/",
+    github:'https://github.com/OyedejiEnoch/Tedx-Redeemers-Uinversity'
     },
     {
       id:'5',
@@ -107,7 +116,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
-
+    link:"https://snap-s-portfolio.vercel.app",
+    github:"https://github.com/OyedejiEnoch/Snap-s-Portfolio"
     },
     {
       id:'6',
@@ -124,6 +134,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
+    link:"https://attio-seven.vercel.app",
+    github:"https://github.com/OyedejiEnoch/Attio"
     },
     {
       id:'7',
@@ -140,6 +152,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
+    link:"https://performance-ui-bhdx.vercel.app",
+    github:"https://github.com/OyedejiEnoch/Performance-ui"
     },
     {
       id:'8',
@@ -155,6 +169,21 @@ export const navLinks = [
       { id: 5, name: "Framer motion" },
     ], 
     },
+        {
+    id:'9',
+    title:"Peculiar Tressure School Dashboard",
+    image:"/peculiar/img1.png",
+    description:`I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning 
+    were invested to create a system capable of managing the school's core activities efficiently an admin system which would be used to control the major affairs of the school`,
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Next.js" },
+      { id: 3, name: "Typescript" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Framer motion" },
+    ],
+    
+  },
   ];
   
 export const featuredProjectsAll =[

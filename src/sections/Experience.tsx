@@ -98,23 +98,23 @@ const data = [
       content: (
         <div>
           <p className="mb-4 text-xs font-normal text-white/50 md:text-sm dark:text-neutral-200">
-            Deployed 5 new components on Aceternity today
+            Currently Working as a Freelance developer, Developing
           </p>
           <div className="mb-8">
             <div className="flex items-center gap-2 text-xs text-white/50 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
+              Landing Pages & Websites
             </div>
             <div className="flex items-center gap-2 text-xs text-white/50 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
+              Full Stack Web Applications
             </div>
             <div className="flex items-center gap-2 text-xs text-white/50 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
+              Framer Websites
             </div>
             <div className="flex items-center gap-2 text-xs text-white/50 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
+              
             </div>
             <div className="flex items-center gap-2 text-xs text-white/50 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
+              Ai Agents
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

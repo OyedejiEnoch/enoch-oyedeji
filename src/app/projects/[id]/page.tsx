@@ -5,16 +5,15 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ArrowUpRight, Github } from 'lucide-react'
 import Image from 'next/image'
-import React, {useRef, FC } from 'react'
+import React, {useRef } from 'react'
 
 interface ProjectPageProps {
   params: {
     id: string;
   };
 }
-
-const SingleProject: FC<ProjectPageProps> = ({ params }) => {
-  const { id } = params;
+const SingleProject = ({params}:ProjectPageProps) => {
+    const {id} = params
     const project= allProjects.find((projectId)=> projectId.id === id)
 
     const projectRef =useRef(null)
@@ -59,10 +58,10 @@ const SingleProject: FC<ProjectPageProps> = ({ params }) => {
 
                     <hr className='text-gray-300/40 mt-10' />
                     <div className='flex items-center justify-between mt-6'>
-                        <button className='bg-neutral-500/30 text-white px-4 py-2 rounded-xl flex items-center gap-1 cursor-pointer
-                        hover:bg-white transition duration-300 hover:text-black'> <Github /> View Code</button>
-                        <button className='bg-neutral-500/30 text-white px-4 py-2 rounded-xl flex items-center gap-1 
-                        cursor-pointer hover:bg-white transition duration-300 hover:text-black'>Live Demo <ArrowUpRight /> </button>
+                        <a href={project?.github} className='bg-neutral-500/30 text-white px-4 py-2 rounded-xl flex items-center gap-1 cursor-pointer
+                        hover:bg-white transition duration-300 hover:text-black'> <Github /> View Code</a>
+                        <a href={project?.link} className='bg-neutral-500/30 text-white px-4 py-2 rounded-xl flex items-center gap-1 
+                        cursor-pointer hover:bg-white transition duration-300 hover:text-black'>Live Demo <ArrowUpRight /> </a>
                     </div>
                 </div>
                 
