@@ -9,7 +9,7 @@ const data = [
         <div>
           <h2 className='font-semibold text-3xl'>AFEX</h2>
           <p className="mt-3 mb-4 text-xs font-normal text-white/50 md:text-sm dark:text-neutral-200">
-            Worked as a Frontend Developer for AFEX 
+            Worked as a Frontend Developer At AFEX 
             maintaining current applications and working on newly developed systems. 
           </p>
 
