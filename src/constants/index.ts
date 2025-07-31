@@ -71,7 +71,8 @@ export const navLinks = [
     id:'3',
     title:"Layers Ui",
     image:"/layers/img1.png",
-    description:`Layers is a SaaS landing page, Layers combines powerful features with an intuitive interface that keeps you in your creative flow.
+    description:'',
+    fullDescription:`Layers is a SaaS landing page, Layers combines powerful features with an intuitive interface that keeps you in your creative flow.
     It has Real-time Collaboration, Interactive Prototyping and Keyboard Quick Actions, Layers also seamlessly connect with your favorite tools, making it easy to plug into any workflow and collaborate across platforms.
     Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.`,
     frameworks: [
@@ -168,13 +169,16 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ], 
+      link:"",
+    github:""
     },
         {
     id:'9',
     title:"Peculiar Tressure School Dashboard",
     image:"/peculiar/img1.png",
-    description:`I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning 
+    fullDescription:`I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning 
     were invested to create a system capable of managing the school's core activities efficiently an admin system which would be used to control the major affairs of the school`,
+    description:'',
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -182,7 +186,8 @@ export const navLinks = [
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Framer motion" },
     ],
-    
+    link:"",
+    github:""
   },
   ];
   
