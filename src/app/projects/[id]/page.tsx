@@ -12,7 +12,7 @@ interface ProjectPageProps {
     id: string;
   };
 }
-const SingleProject = ({params}:ProjectPageProps) => {
+const SingleProject = async ({params}:ProjectPageProps) => {
     const {id} = params
     const project= allProjects.find((projectId)=> projectId.id === id)
 
