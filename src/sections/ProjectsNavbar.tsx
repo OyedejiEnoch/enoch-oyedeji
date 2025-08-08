@@ -27,6 +27,7 @@ const ProjectNavbar = () => {
         tl.current =gsap.timeline({paused:true})
         .to(navRef.current, {
             xPercent:0,
+            opacity:1,
             duration:1,
             ease:"power3.out",
         })
@@ -104,7 +105,7 @@ const ProjectNavbar = () => {
 
   return (
     <>
-        <nav ref={navRef}  className='fixed z-50 flex flex-col justify-between bg-white w-full h-full text-black/80
+        <nav ref={navRef}  className='fixed z-50 opacity-0 flex flex-col justify-between bg-white w-full h-full text-black/80
         px-10 py-28 md:w-1/2 md:left-1/2 gap-y-20 '>
             <div className='flex flex-col gap-y-4 text-5xl md:text-6xl lg:text-7xl'>
                 {navLinks.map((item, index)=>(

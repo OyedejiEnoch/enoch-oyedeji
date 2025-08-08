@@ -27,6 +27,7 @@ const Navbar = () => {
         tl.current =gsap.timeline({paused:true})
         .to(navRef.current, {
             xPercent:0,
+            opacity:1,
             duration:1,
             ease:"power3.out",
         })
@@ -79,18 +80,18 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         if(isOpen){
-            tl!.current!.reverse() // reverse the timeline to close the menu
+            tl.current!.reverse() // reverse the timeline to close the menu
             setIsOpen(false)
-            iconTl!.current!.reverse() // reverse the icon timeline to close the menu
+            iconTl.current!.reverse() // reverse the icon timeline to close the menu
         }else{
-            tl!.current!.play() // play the timeline to open the menu
+            tl.current!.play() // play the timeline to open the menu
             setIsOpen(true)
-            iconTl!.current!.play() // play the icon timeline to open the menu
+            iconTl.current!.play() // play the icon timeline to open the menu
         }
     }
   return (
     <>
-        <nav ref={navRef}  className='fixed z-50 flex flex-col justify-between bg-white w-full h-full text-black/80
+        <nav ref={navRef}  className='fixed z-50 opacity-0 flex flex-col justify-between bg-white w-full h-full text-black/80
         px-10 py-28 md:w-1/2 md:left-1/2 gap-y-10 '>
             <div className='flex flex-col gap-y-4 text-5xl md:text-6xl lg:text-7xl'>
                 {['Home', 'Services', 'About', 'Projects', 'Contact'].map((item, index)=>(
