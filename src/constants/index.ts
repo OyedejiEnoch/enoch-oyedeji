@@ -135,7 +135,7 @@ export const navLinks = [
     github:'https://github.com/OyedejiEnoch/anon'
     },
     {
-      id:'5',
+      id:'7',
       title:"Snap's Portfolio",
       image:"/snapPortfolio/img1.png",
       description:"an amazing, short and minimalistic Photographer Portfolio, which is more of a landing page, displaying the craft of phography.",
@@ -153,7 +153,7 @@ export const navLinks = [
     github:"https://github.com/OyedejiEnoch/Snap-s-Portfolio"
     },
     {
-      id:'6',
+      id:'8',
       title:"Attio",
       image:"/attio/img1.png",
       description:"an amazing CRM landing page called Attio which is an amazing Landing page modern design brought to life with smooth simple animations and seamless interactions, From design to deployment, this project bridges the gap between aesthetics and performance!",
@@ -171,7 +171,7 @@ export const navLinks = [
     github:"https://github.com/OyedejiEnoch/Attio"
     },
     {
-      id:'7',
+      id:'9',
       title:"Performance Ui",
       image:"/performance/img1.png",
       description:"Performance is an amazing landing page UI, with smooth UI interactions and animations, bringing to life the beauty of modern day websites. Implemented the landing page with React and Next.js, and Typescript to build lightning-fast, SEO-friendly websites ",
@@ -189,7 +189,7 @@ export const navLinks = [
     github:"https://github.com/OyedejiEnoch/Performance-ui"
     },
     {
-      id:'8',
+      id:'10',
       title:"Edschool",
       image:"/Edschool/img1.png",
       description:" Full-Stack School Admin Dashboard for School Management! Have been working on this for a while now, a dashboard designed to simplify school management and improve efficiency for both students, parents, teachers, and administrators.",
@@ -205,7 +205,7 @@ export const navLinks = [
     github:""
     },
         {
-    id:'9',
+    id:'11',
     title:"Peculiar Tressure School Dashboard",
     image:"/peculiar/img1.png",
     fullDescription:`I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning 

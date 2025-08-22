@@ -107,9 +107,9 @@ const handleMouseLeave = (index:any) => {
     <section id="projects" className='bg-black text-white dark:bg-white flex flex-col min-h-screen px-2'>
       <AnimatedHeaderSection text={text} subtitle={'My Projects'} title={'Projects'} textColor={'text-white'} withScrollTrigger={true} />
 
-      <div className='relative flex flex-col font-light' onMouseMove={handleMouseMove}>
+      <div className='relative flex flex-col font-light mb-10' onMouseMove={handleMouseMove}>
         {allProjects.map((project, index)=>(
-          <Link href={`/projects/${project.id}`} key={project.id}>
+          <Link href={`/projects/${project.id}`} key={project.id} className='mb-4 mt-8'>
             <div  id='project' key={project.id} className="relative flex flex-col gap-1 cursor-pointer group md:gap-0 py-5"
              onMouseEnter={()=>handleMouseEnter(index)}
             onMouseLeave={()=>handleMouseLeave(index)}
