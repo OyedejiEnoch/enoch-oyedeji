@@ -292,7 +292,7 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:3,
+    id:4,
     title:"TedxRUN",
     image:"/tedxrun/img1.png",
     bgImage: "/backgrounds/map.jpg",
@@ -306,7 +306,7 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:4,
+    id:7,
     title:"Snap's Portfolio",
     image:"/snapPortfolio/img1.png",
     bgImage: "/backgrounds/poster.jpg",
@@ -320,7 +320,7 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:5,
+    id:8,
     title:"Attio",
     image:"/attio/img1.png",
     bgImage: "/backgrounds/table.jpg",
@@ -333,12 +333,12 @@ export const featuredProjectsLanding =[
       { id: 5, name: "Framer motion" },
     ],
   },
-  {
-    id:6,
-    title:"Performance Ui",
-    image:"/performance/img1.png",
-     bgImage: "/backgrounds/blanket.jpg",
-    description:"Performance is an amazing landing page UI, with smooth UI interactions and animations, bringing to life the beauty of modern day websites. Implemented the landing page with React and Next.js, and Typescript to build lightning-fast, SEO-friendly websites ",
+    {
+    id:'3',
+    title:"Layers Ui",
+    image:"/layers/layers.png",
+    bgImage: "/backgrounds/table.jpg",
+    description:'',
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
