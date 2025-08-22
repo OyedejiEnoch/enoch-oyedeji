@@ -49,7 +49,7 @@ const AnimatedHeaderSection = ({subtitle, title, textColor, text, withScrollTrig
           >
             {subtitle}
           </p>
-          <div className="px-10">
+          <div className="px-">
             <h1
               className={`flex flex-col gap-12 uppercase banner-text-responsive sm:gap-16 lg:leading-32 md:block ${textColor}`}
             >
@@ -61,7 +61,7 @@ const AnimatedHeaderSection = ({subtitle, title, textColor, text, withScrollTrig
         </div>
       </div>
 
-        <div className={`relative px-10 mt-3 `}>
+        <div className={`relative px-4 mt-3 `}>
             <div className='absolute inset-x-0 border-t-2' />
             
                <AnimatedTextLines text={text} className={`font-light uppercase value-text-responsive ${textColor}`}/>

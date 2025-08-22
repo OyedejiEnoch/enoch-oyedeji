@@ -158,7 +158,7 @@ const Experience = () => {
   return (
     <section className='py-20 lg:py-24 bg-black text-white'>
 
-        <AnimatedHeaderSection text={text} subtitle={'Featured Work Experience'} title={'Expe'} textColor={'text-white'}withScrollTrigger={true} />
+        <AnimatedHeaderSection text={text} subtitle={'Featured Work Experience'} title={'Timeline'} textColor={'text-white'}withScrollTrigger={true} />
         <div className='max-w-6xl lg:max-w-7xl mx-auto'>
              <div className="relative w-full overflow-clip">
             <Timeline data={data} />

@@ -104,7 +104,7 @@ const handleMouseLeave = (index:any) => {
     // const items =["Innovation", "Precision", "Trust", "Collaboration", "Excellence"]
 
   return (
-    <section id="projects" className='bg-[#FFFDF6] text-black dark:bg-white flex flex-col min-h-screen'>
+    <section id="projects" className='bg-[#FFFDF6] text-black dark:bg-white flex flex-col min-h-screen py-10'>
       <AnimatedHeaderSection text={text} subtitle={'My Featured Projects'} title={'Works'} textColor={'text-black'} withScrollTrigger={true} />
 
       <div className='relative flex flex-col font-light' onMouseMove={handleMouseMove}>
@@ -129,7 +129,7 @@ const handleMouseLeave = (index:any) => {
                 </div>
                 
                     {/* mobile preview image  */}
-                <div className="relative flex items-center justify-center px-10 md:hidden h-[400px]">
+                <div className="relative flex items-center justify-center px-10 md:hidden h-[250px]">
                     <img src={project.bgImage} alt={`${project.title}-bg-image`} className="object-cover w-full h-full rounded-md brightness-50 " />
                     <img src={project.image} alt={`${project.title}-image`} className="absolute bg-center px-14 rounded-xl  w-[800px]" />
                 </div>
