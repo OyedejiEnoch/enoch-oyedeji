@@ -29,8 +29,8 @@ const SingleProject = () => {
       <div className='max-w-6xl lg:max-w-7xl mx-auto'>
         <div className='w-full flex flex-col md:flex-row gap-8 p-4'>
             {/* left */}
-            <div ref={imageRef} className='w-full md:w-2/3 p-2 border border-white/20 h-[300px] lg:h-[500px]'>
-                <Image src={project?.image!} alt='Image' width={1000} height={500} />
+            <div ref={imageRef} className='w-full md:w-2/3 p-2   h-[300px] lg:h-[500px] rounded-2xl'>
+                <Image src={project?.image!} alt='Image' width={1000} height={1000} className='w-full h-full object-cover rounded-2xl'/>
             </div>
 
             {/* right */}
