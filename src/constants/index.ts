@@ -70,7 +70,7 @@ export const navLinks = [
         {
     id:'3',
     title:"Layers Ui",
-    image:"/layers/img1.png",
+    image:"/layers/layers.png",
     description:'',
     fullDescription:`Layers is a SaaS landing page, Layers combines powerful features with an intuitive interface that keeps you in your creative flow.
     It has Real-time Collaboration, Interactive Prototyping and Keyboard Quick Actions, Layers also seamlessly connect with your favorite tools, making it easy to plug into any workflow and collaborate across platforms.
@@ -101,6 +101,38 @@ export const navLinks = [
     ],
     link:"https://tedx-redeemers-uinversity.vercel.app/",
     github:'https://github.com/OyedejiEnoch/Tedx-Redeemers-Uinversity'
+    },
+    {
+      id:'5',
+      title:"Spylt",
+      image:"/spylt/spylt.png",
+      description:"I had the amazing opportunity to develop the landing page for TEDxRUN—TEDx Redeemers University! TEDxRUN This project was all about creating a modern, interactive, and engaging platform that reflects the spirit of TEDx—spreading ideas that inspire and spark change.",
+      fullDescription:`I had the amazing opportunity to re-develop the landing page of Spylt. This project was all about creating a modern, interactive, and engaging Landing page that reflects the brand, the coloring and essence of the drink.`,
+      frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Next.js" },
+      { id: 3, name: "Typescript" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "GSAP" },
+    ],
+    link:"https://split-plum.vercel.app/",
+    github:'https://github.com/OyedejiEnoch/Split'
+    },
+    {
+      id:'6',
+      title:"Anon",
+      image:"/anon/anon.png",
+      description:"I had the amazing opportunity to develop the landing page for TEDxRUN—TEDx Redeemers University! TEDxRUN This project was all about creating a modern, interactive, and engaging platform that reflects the spirit of TEDx—spreading ideas that inspire and spark change.",
+      fullDescription:`Developed this amazing Landing page to life for Anon, which is a modern design brought to life with smooth simple animations and seamless interactions. Anon is a figma libary, which gives you full access into icons and tools that you need for easy designing`,
+      frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Next.js" },
+      { id: 3, name: "Typescript" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "GSAP" },
+    ],
+    link:"https://anon-ui-theta.vercel.app/",
+    github:'https://github.com/OyedejiEnoch/anon'
     },
     {
       id:'5',
