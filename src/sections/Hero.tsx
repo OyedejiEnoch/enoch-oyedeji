@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
 
   const text =`I help growing brands and startups build their online presence
-    and gain an unfair advantage through result-driven webs/apps`
+    and gain an unfair advantage through result-driven web/apps`
 
   return (
     <section className='py-28'>

@@ -122,7 +122,7 @@ const handleMouseLeave = (index:any) => {
 
                 <div className="w-full h-0.5 bg-black/80" />
 
-                <div className="flex px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
+                <div className="flex flex-wrap px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
                     {project.frameworks.map((frameWork, index)=>(
                         <p key={frameWork.id} className="text-black transition-colors duration-500 md:group-hover:text-white">{frameWork.name}</p>
                     ))}

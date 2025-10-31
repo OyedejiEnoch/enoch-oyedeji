@@ -244,11 +244,11 @@ body {
 }
 
 @utility banner-text-responsive {
-  @apply text-[58px] sm:text-[118px] md:text-[126px] lg:text-[152px] leading-8 sm:leading-16 lg:leading-20;
+  @apply text-[52px] sm:text-[118px] md:text-[126px] lg:text-[152px] leading-8 sm:leading-16 lg:leading-20;
 }
 
 @utility value-text-responsive {
-  @apply text-2xl md:text-[26px] lg:text-[32px];
+  @apply text-[21px] md:text-[26px] lg:text-[32px];
 }
 
 @utility marquee-text-responsive {

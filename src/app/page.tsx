@@ -2,6 +2,7 @@ import About from "@/sections/About";
 import Experience from "@/sections/Experience";
 import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
+import MyProcess from "@/sections/MyProcess";
 import Navbar from "@/sections/Navbar";
 import Services from "@/sections/Services";
 import Works from "@/sections/Works";
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Services />
       <Works />
+      <MyProcess />
       <Experience />
       <Footer />
     </ReactLenis>

@@ -31,7 +31,7 @@ const AnimatedTextLines = ({text, className}:{text:string, className:string}) =>
         <span // mapping over each of the lines and adding a ref to each
           key={index}
           ref={(el) => {lineRefs.current[index] = el}}
-          className="block leading-relaxed tracking-wide text-pretty mt-2" //we added block so each can stay on a different line
+          className="block leading-relaxed tracking-wide text-pretty mt-4" //we added block so each can stay on a different line
         >
           {line}
         </span>
