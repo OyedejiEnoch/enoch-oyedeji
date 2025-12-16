@@ -116,6 +116,7 @@ const ProjectNavbar = () => {
                             {item.title}
                         </Link>
                     </div>
+                    
                 ))}
 
                 <div ref={contactRef} className='flex flex-col flex-wrap justify-between gap-8 md:flex-row '>
