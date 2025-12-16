@@ -49,7 +49,7 @@ export default function About() {
   }, []);
 
   return (
-    <section ref={sectionRef} id="about" className="mt-12 py-20 lg:py-28 text-white">
+    <section ref={sectionRef} id="about" className="mt-12 py-18 lg:py-22 text-white">
       <div className="max-w-6xl lg:max-w-7xl mx-auto p-4">
 
         <div className="sticky top-20 md:top-24 lg:top-40">

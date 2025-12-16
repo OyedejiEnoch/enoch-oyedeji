@@ -9,8 +9,8 @@ import { useParams } from 'next/navigation'
 
 const SingleProject = () => {
     const params = useParams();
-    const id = params.id;
-    const project= allProjects.find((projectId)=> projectId.id === id)
+    const id = params.id as string;
+    const project= allProjects.find((projectId)=> projectId.id.toString() === id)
     
     const imageRef =useRef(null)
     const textRef =useRef(null)

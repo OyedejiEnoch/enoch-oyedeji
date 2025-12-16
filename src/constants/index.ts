@@ -1,27 +1,27 @@
 
 export const navLinks = [
     {
-      id: 1,
+      id: "1",
       name: 'Home',
       href: '/',
     },
     {
-      id: 1,
+      id: "2",
       name: 'Projects',
       href: '/projects',
     },
     {
-      id: 2,
+      id: "3",
       name: 'About',
       href: '#about',
     },
     {
-      id: 3,
+      id: "4",
       name: 'Work',
       href: '#work',
     },
     {
-      id: 4,
+      id: "5",
       name: 'Contact',
       href: '#contact',
     },
@@ -30,6 +30,35 @@ export const navLinks = [
   
   
   export const allProjects = [
+    {
+    id:"12",
+    title:"FarmConnect Africa",
+    image:"/farmConnect/farmConnect.png",
+    bgImage: "/backgrounds/table.jpg",
+    fullDescription:`FarmConnect Africa, is all about Empowering Farmers With Technology.
+    Agriculture powers a huge part of Africas economy, yet many farmers still lack access to accurate market prices, trusted buyers, farming education, and tools to grow their businesses.
+
+    There is something i have noticed about agriculture in Nigeria and other regions, 
+    Farmers struggle with unpredictable market prices
+    Many don't have direct access to buyers
+    Weather information is hard to obtain
+
+    I believe these are problems we should all know that farmers experience, but the question is, why hasn't it being solved yet?
+
+    Yet the potential is massive.
+    So this is just a simple landing page on it
+
+    This was Built in Framer, with a clean design focused on clarity, accessibility, and storytelling. 
+    
+    `,
+    description:`FarmConnect Africa, is all about Empowering Farmers With Technology.
+    Agriculture powers a huge part of Africas economy, yet many farmers still lack access to accurate market prices, trusted buyers, farming education, and tools to grow their businesses.`,
+    frameworks: [
+      { id: 1, name: "Framer" },
+      { id: 2, name: "Ui/Ux" },
+    ],
+    link:"https://farmconnectafrica.framer.website/"
+  },
     {
       id:'1',
       title:"Fundain",
@@ -122,7 +151,7 @@ export const navLinks = [
       id:'6',
       title:"Anon",
       image:"/anon/anon.png",
-      description:"I had the amazing opportunity to develop the landing page for TEDxRUN—TEDx Redeemers University! TEDxRUN This project was all about creating a modern, interactive, and engaging platform that reflects the spirit of TEDx—spreading ideas that inspire and spark change.",
+      description:"I Developed this amazing Landing page to life for Anon, which is a modern design brought to life with smooth simple animations and seamless interactions.",
       fullDescription:`Developed this amazing Landing page to life for Anon, which is a modern design brought to life with smooth simple animations and seamless interactions. Anon is a figma libary, which gives you full access into icons and tools that you need for easy designing`,
       frameworks: [
       { id: 1, name: "React" },
@@ -170,6 +199,24 @@ export const navLinks = [
     link:"https://attio-seven.vercel.app",
     github:"https://github.com/OyedejiEnoch/Attio"
     },
+        {
+    id:'13',
+    title:"Viral",
+    image:"/viral/viral.png",
+    fullDescription:`Viral is a creative agency, which specialize in helping brands scale through content creation, social media management, and performance-driven paid media campaigns.
+    Having just a simple model, which is simple.
+    Create content that stops the scroll, Manage daily engagement, Run ads that convert and Help brands grow intentionally.
+    The images and videos used, were catchy hooks, which were just used to grab attention to the website.
+
+    This was a website that took alot of imagination to gather through, and the most joyful part is i developed this, without coding.
+`,
+    description:'',
+    frameworks: [
+      { id: 1, name: "Framer" },
+    ],
+    link:"https://viral-media.framer.website/",
+    github:""
+  },
     {
       id:'9',
       title:"Performance Ui",
@@ -221,49 +268,13 @@ export const navLinks = [
     link:"",
     github:""
   },
-  ];
-  
-export const featuredProjectsAll =[
-  {
-    id:1,
-    title:"Attio",
-    image:"/attio/img1.png",
-    description:"an amazing CRM landing page called Attio which is an amazing Landing page modern design brought to life with smooth simple animations and seamless interactions, From design to deployment, this project bridges the gap between aesthetics and performance!",
-    
-  },
-  {
-    id:2,
-    title:"Fundain",
-    image:"/fundain/img1.png",
-    description:"Worked on an amazing Decentralized Crowdfunding landing page called Fundain, designed by Rosemary Emenike who came up with this amzing Ui along side Chinenye Ifebunandu, creating a modern design landing page, which is brought to life with smooth simple animations and a seamless interaction.Fundain is a decentralized crowdfunding platform using blockchain, allowing users to fundraise transparently with smart contracts, ",
 
-  },
-  {
-    id:3,
-    title:"Peculiar Tressure School Dashboard",
-    image:"/peculiar/img1.png",
-    description:"I had the privilege of working with Active Technologies on a large-scale project to develop a School Admin Dashboard for Peculiar Treasure School Lagos Nigeria. This was a rewarding project where significant amount of time and planning were invested to create a system capable of managing the school's core activities efficiently an admin system which would be used to control the major affairs of the school",
-    
-  },
-  {
-    id:4,
-    title:"TedxRUN",
-    image:"/tedxrun/img1.png",
-    description:"I had the amazing opportunity to develop the landing page for TEDxRUN—TEDx Redeemers University! TEDxRUN This project was all about creating a modern, interactive, and engaging platform that reflects the spirit of TEDx—spreading ideas that inspire and spark change.",
-    
-  },
-  {
-    id:5,
-    title:"Edschool",
-    image:"/Edschool/img1.png",
-    description:" Full-Stack School Admin Dashboard for School Management! Have been working on this for a while now, a dashboard designed to simplify school management and improve efficiency for both students, parents, teachers, and administrators.",
-    
-  },
-]
+  ];
+
 export const featuredProjectsLanding =[
 
   {
-    id:1,
+    id:"1",
     title:"Fundain",
     image:"/fundain/img1.png",
     bgImage: "/backgrounds/blanket.jpg",
@@ -278,7 +289,7 @@ export const featuredProjectsLanding =[
   },
 
   {
-    id:2,
+    id:"2",
     title:"Sphereal Ai",
     image:"/sphereal/img1.png",
     bgImage: "/backgrounds/curtains.jpg",
@@ -292,7 +303,7 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:4,
+    id:"4",
     title:"TedxRUN",
     image:"/tedxrun/img1.png",
     bgImage: "/backgrounds/map.jpg",
@@ -306,7 +317,7 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:7,
+    id:"7",
     title:"Snap's Portfolio",
     image:"/snapPortfolio/img1.png",
     bgImage: "/backgrounds/poster.jpg",
@@ -320,21 +331,19 @@ export const featuredProjectsLanding =[
     ],
   },
   {
-    id:8,
-    title:"Attio",
-    image:"/attio/img1.png",
+    id:"12",
+    title:"FarmConnect Africa",
+    image:"/farmConnect/farmConnect.png",
     bgImage: "/backgrounds/table.jpg",
-    description:"an amazing CRM landing page called Attio which is an amazing Landing page modern design brought to life with smooth simple animations and seamless interactions, From design to deployment, this project bridges the gap between aesthetics and performance!",
+    description:`FarmConnect Africa, is all about Empowering Farmers With Technology.
+    Agriculture powers a huge part of Africas economy, yet many farmers still lack access to accurate market prices, trusted buyers, farming education, and tools to grow their businesses.`,
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Typescript" },
-      { id: 4, name: "Tailwind CSS" },
-      { id: 5, name: "Framer motion" },
+      { id: 1, name: "Framer" },
+      { id: 2, name: "Ui/Ux" },
     ],
   },
     {
-    id:'3',
+    id:"9",
     title:"Layers Ui",
     image:"/layers/layers.png",
     bgImage: "/backgrounds/table.jpg",
@@ -348,15 +357,7 @@ export const featuredProjectsLanding =[
     ],
   },
 ]
-export const featuredProjectsFull =[
-  {
-    id:1,
-    title:"",
-    image:"",
-    description:"",
-    
-  }
-]
+
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
   {

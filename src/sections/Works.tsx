@@ -8,6 +8,8 @@ import { ArrowUpRight } from 'lucide-react'
 import React, { useRef, useState } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 import Link from 'next/link'
+import ProjectCard from '@/components/ProjectCard'
+import { p } from 'motion/react-client'
 gsap.registerPlugin(ScrollTrigger);
 
 type QuickToFunc = ReturnType<typeof gsap.quickTo>;
@@ -107,13 +109,17 @@ const handleMouseLeave = (index:any) => {
     <section id="projects" className='bg-[#FFFDF6] text-black dark:bg-white flex flex-col min-h-screen py-10'>
       <AnimatedHeaderSection text={text} subtitle={'My Featured Projects'} title={'Works'} textColor={'text-black'} withScrollTrigger={true} />
 
-      <div className='relative flex flex-col font-light' onMouseMove={handleMouseMove}>
+      <div className='relative md:flex flex-col gap-8 font-light' onMouseMove={handleMouseMove}>
         {featuredProjectsLanding.map((project, index)=>(
-          <Link href={`/projects/${project.id}`} key={project.id}>
+          <div key={project.id}>
             <div  id='project' className="relative flex flex-col gap-1 cursor-pointer group md:gap-0 py-5"
              onMouseEnter={()=>handleMouseEnter(index)}
             onMouseLeave={()=>handleMouseLeave(index)}
             >
+                <Link
+                  href={`/projects/${project.id}`}
+                  className="absolute inset-0 z-10"
+                />
                  <div ref={(el)=>{overlayRefs.current[index] = el}} className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path" />
                 <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
                     <h2 className="lg:text-[32px] text-[26px] leading-none">{project.title}</h2>
@@ -129,21 +135,23 @@ const handleMouseLeave = (index:any) => {
                 </div>
                 
                     {/* mobile preview image  */}
-                <div className="relative flex items-center justify-center px-10 md:hidden h-[250px]">
-                    <img src={project.bgImage} alt={`${project.title}-bg-image`} className="object-cover w-full h-full rounded-md brightness-50 " />
+                <div className="relative flex items-center justify-center md:hidden h-[250px]">
                     <img src={project.image} alt={`${project.title}-image`} className="absolute bg-center px-14 rounded-xl  w-[800px]" />
                 </div>
             </div>
-            </Link>
+            </div>
         ))}
 
           {/* desktop floating preview */}
-        <div ref={previewRef} className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0">
+        <div ref={previewRef} className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[760px] md:block hidden opacity-0">
            {currentIndex !== null && (
             <img src={featuredProjectsLanding[currentIndex].image} alt="img" className="" />
            )}
         </div>
       </div>
+
+
+
 
       <div className='flex justify-center items-center mt-10 pb-10'>
         <Link href={'/projects'}>

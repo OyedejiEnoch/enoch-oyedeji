@@ -25,7 +25,7 @@ const Services =()=>{
                 ease: "circ.out",
                 scrollTrigger: {
                     trigger: el,
-                    start: "top 80%",
+                    start: "top center",
                 },
             });
         }

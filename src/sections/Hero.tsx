@@ -7,7 +7,7 @@ const Hero = () => {
     and gain an unfair advantage through result-driven web/apps`
 
   return (
-    <section className='py-28'>
+    <section className='py-24'>
       <div className='max-w-6xl lg:max-w-7xl mx-auto border-b border-black dark:border-white/20 h-[90vh] p-2'>
         <div className='flex items-center justify-between mt-4 dark:text-white/30 text-sm'> 
           <p className=''>I&apos;m Enoch</p>

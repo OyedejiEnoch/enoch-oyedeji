@@ -156,7 +156,7 @@ const data = [
 
 const Experience = () => {
   return (
-    <section className='py-20 lg:py-24 bg-black text-white'>
+    <section className='py-18 lg:py-22 bg-black text-white'>
 
         <AnimatedHeaderSection text={text} subtitle={'Featured Work Experience'} title={'Timeline'} textColor={'text-white'}withScrollTrigger={true} />
         <div className='max-w-6xl lg:max-w-7xl mx-auto'>

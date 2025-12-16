@@ -2,8 +2,9 @@
 import { socials } from '@/constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 const Navbar = () => {
     
     const [isOpen, setIsOpen] =useState(false)   
@@ -89,20 +90,30 @@ const Navbar = () => {
             iconTl.current!.play() // play the icon timeline to open the menu
         }
     }
+
+    const navLinks=[
+        {
+            id:'1',
+            title:'Home',
+            link:'/'
+        },
+        {
+            id:'2',
+            title:'Projects',
+            link:'projects'
+        },
+    ]
   return (
     <>
         <nav ref={navRef}  className='fixed z-50 opacity-0 flex flex-col justify-between bg-white w-full h-full text-black/80
         px-10 py-28 md:w-1/2 md:left-1/2 gap-y-10 '>
             <div className='flex flex-col gap-y-4 text-5xl md:text-6xl lg:text-7xl'>
-                {['Home', 'Services', 'About', 'Projects', 'Contact'].map((item, index)=>(
+                {navLinks.map((item, index)=>(
                     <div key={index} ref={(el)=>{linkRef.current[index] = el}}>
-                        <Link 
-                        to={`/${item.toLowerCase()}`}
-                        smooth
-                        offset={0}
-                        duration={2000}
+                        <Link
+                        href={`/${item.link}`}
                         className='transition-all duration-300 hover:text-black cursor-pointer' >
-                            {item}
+                            {item.title}
                         </Link>
                     </div>
                 ))}
